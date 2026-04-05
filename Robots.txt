@@ -1,0 +1,20 @@
+# Robots.txt for Legendmesh.com
+# Premium Web3 Domain Asset | Managed by EliJul Group
+
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /legendmesh.png
+
+# Block access to system and administrative folders
+Disallow: /cgi-bin/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /config/
+
+# Optimized crawl delay for infrastructure landers
+Crawl-delay: 10
+
+# Canonical Sitemap Location
+Host: https://legendmesh.com
+Sitemap: https://legendmesh.com/sitemap.xml
